@@ -34,7 +34,7 @@ def schedule_reminders(chat_id, reminder_times, training_day=None):
         bot.send_message(chat_id, "Произошла непредвиденная ошибка. Пожалуйста, попробуйте позже.")
 
 # Инициализация бота
-bot: TeleBot = telebot.TeleBot('7508611106:AAFIcwYelkeOcgCwhhHzwNFtVTzPx5t4eGI')
+bot: TeleBot = telebot.TeleBot('ТОКЕН')
 
 # Планировщик для отправки напоминаний
 scheduler = BackgroundScheduler()
